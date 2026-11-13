@@ -20,5 +20,9 @@ function subtract(...nums) {
     }
 }
 
+function divide(nums) {
+    
+}
+
 console.log(add(123, 456))
 console.log(subtract(1231, 456))
