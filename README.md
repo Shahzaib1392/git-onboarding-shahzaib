@@ -1,6 +1,6 @@
 # Git Onboarding
 ## PURPOSE:
-To Develop understanding of Git and Github for professional use.
+To improve understanding of Git and Github for professional use.
 
 ### How to Run<br>
 
