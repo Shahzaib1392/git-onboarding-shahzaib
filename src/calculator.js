@@ -31,6 +31,20 @@ function multiply(nums) {
     }
 }
 
+function divide(nums) {
+    try {
+        return nums.reduce((acc, cur) => {
+            if (Number.isFinite(acc) && Number.isFinite(cur) && cur !== 0)
+                return acc / cur
+            else
+                throw new Error(`Invalid number`)
+        })
+    } catch (e) {
+        return e.message
+    }
+}
+
 console.log(add([123, 456]))
 console.log(subtract([1231, 456]))
 console.log(multiply([11, 46]))
+console.log(divide([10, 46]))
