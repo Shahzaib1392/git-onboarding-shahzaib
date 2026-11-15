@@ -13,6 +13,6 @@ describe('calculator', () => {
         assert.strictEqual(1440, multiply([12, 12, 10]))
     })
     test('test divide', () => {
-        assert.strictEqual(1, divide([36, 6, 6]))
+        assert.strictEqual(1, divide([36, 0, 6]))
     })
 })
