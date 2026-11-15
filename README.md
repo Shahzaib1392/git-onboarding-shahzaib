@@ -1,3 +1,5 @@
+[![CI](https://github.com/Shahzaib1392/git-onboarding-shahzaib/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahzaib1392/git-onboarding-shahzaib/actions/workflows/ci.yml)
+
 # Git Onboarding
 ## PURPOSE:
 To improve understanding of Git and Github for professional use.
