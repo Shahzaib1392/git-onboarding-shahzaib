@@ -1,4 +1,4 @@
-function add(nums) {
+export function add(nums) {
     try {
         return nums.reduce((acc, cur) => {
             if (!Number.isFinite(cur)) throw new Error(`${cur} is not a number`)
@@ -9,7 +9,7 @@ function add(nums) {
     }
 }
 
-function subtract(nums) {
+export function subtract(nums) {
     try {
         return nums.reduce((acc, cur, index) => {
             if (!Number.isFinite(cur)) throw new Error(`${cur} is not a number`)
@@ -20,7 +20,7 @@ function subtract(nums) {
     }
 }
 
-function multiply(nums) {
+export function multiply(nums) {
     try {
         return nums.reduce((acc, cur) => {
             if (!Number.isFinite(cur)) throw new Error(`${cur} is not a number`)
@@ -31,7 +31,7 @@ function multiply(nums) {
     }
 }
 
-function divide(nums) {
+export function divide(nums) {
     try {
         return nums.reduce((acc, cur) => {
             if (Number.isFinite(acc) && Number.isFinite(cur) && cur !== 0)
