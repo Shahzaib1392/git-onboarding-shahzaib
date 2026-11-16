@@ -44,7 +44,7 @@ export function divide(nums) {
     }
 }
 
-// console.log(add([123, 456]))
-// console.log(subtract([1231, 456]))
-// console.log(multiply([11, 46]))
-// console.log(divide([10, 46]))
+console.log(add([123, 456]))
+console.log(subtract([1231, 456]))
+console.log(multiply([11, 46]))
+console.log(divide([10, 46]))
